@@ -30,6 +30,7 @@ body{
     font-size: 32px;
     margin-left: 35px;
 }
+
 /* navbar styling */
 
 nav ul {
@@ -92,7 +93,7 @@ nav ul {
     height: 85%;
 }
 
-/* pillar section styling */
+/* pillar section */
 
 .pillar-container{
 
@@ -172,6 +173,7 @@ nav ul {
     font-size: 15px;
     color: grey;
 }
+
 /* Opinion */
 
 .opinion{
@@ -202,7 +204,8 @@ td {
     font-size: 15px;
 
 }
-#ans{
+
+#answer{
     padding: 15px;
     background-color: #C6E4D6;
     font-weight: bold;
