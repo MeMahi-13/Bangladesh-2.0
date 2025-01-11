@@ -1,0 +1,306 @@
+
+* {
+    padding: 0px 20px 0px 20px;
+    border-radius: 12px;
+}
+body{
+    background-color: #f2f2f2;
+}
+
+.open-sans {
+    font-family: "Fira Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 200px;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.btn{
+    background-color:#006A50 ;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 18px;
+    font-weight: bold;
+    color: white;
+    border: 2px solid #ffffff;
+}
+
+.font{
+    font-weight: bold;
+    font-size: 32px;
+    margin-left: 35px;
+}
+/* navbar styling */
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-primary {
+    color: #006A50;
+    padding: 15px 30px 15px 30px;
+    border: 1px solid #006A50;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+.btn-primary:hover {
+    background-color: #006A50;
+    color: white;
+    font-size: 18px;
+}
+
+/* banner styling */
+
+.banner {
+    display: flex;
+    background-color:#C6E4D6;
+    width: auto;
+    min-width: 100px ;
+    justify-content: space-between;
+    padding: 80px 30px 0px 30px;
+    margin: 50px;
+    border-radius: 15px;
+}
+
+.banner h1{
+    color: rgb(121, 120, 120);
+    font-weight: 350px;
+    font-size: 20px;
+
+}
+.banner p {
+    font-weight: bolder;
+    width: 450px;
+    font-size: 40px;
+}
+
+.btn-banner:hover {
+    background-color:white;
+    font-size: 20px;
+    border-radius: 30px;
+    color: #006A50;
+    border: 3px solid #006A50;
+}
+
+
+.banner-photo {
+    height: 85%;
+}
+
+/* pillar section styling */
+
+.pillar-container{
+
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.pillar-card {
+    background-color: white;
+    margin: 10px;
+    padding: 5px;
+    width: 25%;
+    border-radius: 8px;
+}
+.pillar-card img{
+    height: 80px;
+    width: 80px;
+}
+
+/* Vision of future */
+
+.vision p{
+    font-size: 15px;
+    color: grey;
+    margin-left: 30px;
+}
+
+.vision-container{
+    margin: 30px;
+    display: flex;
+    gap: 30px;
+}
+.vision-container img{
+    height: 80px;
+    width: 80px;
+}
+
+.vision-card1{
+    background-color: #c6d9f9;
+    padding: 20px;
+}
+.vision-card2{
+    background-color: #d5f59d;
+    padding: 20px;
+}
+.vision-card3{
+    background-color: #f5d0a3;
+    padding: 20px;
+}
+
+.btn-vision{
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+.btn-vision:hover{
+    font-size: 18px;
+    color: white;
+}
+
+/* Quotation */
+.quote{
+    background-image: url("images/quote-bg.png") ;
+    background-repeat: no-repeat;
+    background-position: 2% 2%;
+    background-color: rgb(255, 255, 255);
+    margin: 75px;
+    padding: 20px;
+    border-radius: 8px;
+
+}
+
+.quote h3{
+    font-weight: 300;
+    font-size: 15px;
+    color: grey;
+}
+/* Opinion */
+
+.opinion{
+    background-color: white;
+    padding: 25px;
+    margin: 60px;
+    border-radius: 8px;
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+   
+}
+
+th {
+    background-color: #C6E4D6;
+    padding: 10px;
+   
+}
+
+td {
+    border: 1px solid #C6E4D6;
+    padding: 15px;
+    padding-right: 30px;
+    font-weight: 450;
+    font-size: 15px;
+
+}
+#ans{
+    padding: 15px;
+    background-color: #C6E4D6;
+    font-weight: bold;
+}
+
+/* recent news */
+
+.news p{
+    font-size: 15px;
+    color: grey;
+    margin: 30px;
+}
+
+.news-image img{
+    padding: 20px;
+    border-radius: 50px;
+}
+.news-con {
+    display: flex;
+    background-color: white;
+    margin: 15px;
+    border-radius: 10pxpx;
+}
+
+.news-heading{
+    text-align: left;
+
+}
+.btn:hover{
+    color:#006A50;
+    background-color: white;
+    font-size: 20px;
+    border: 2px solid #006A50;
+}
+
+/* Donate section */
+.donate{
+    text-align: center;
+    margin: 50px;
+}
+.donate p{
+    color: grey;
+    font-size: 15px;
+}
+.donate ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+
+}
+
+.donate li {
+    background-color: white;
+    margin: 30px;
+    padding: 30px;
+    width: 25%;
+    border-radius: 10px;
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(42, 41, 41);
+}
+
+.donation-form{
+    font-weight: bold;
+    padding: 20px 30px 20px 0px; 
+    width: 100%;
+    text-align: center;
+    color: grey;
+    border: none;
+    margin:20px;
+    font-size: 15px;
+}
+
+/* Footer */
+footer{
+    text-align: center;
+}
+.newsletter{
+    background-color: #C6E4D6;
+    margin: 50px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.newsletter p{
+    color: grey;
+    padding: 0 30px 0 30px;
+    font-size: 15px;
+}
+.newsletter form{
+    border: none;
+}
+
+.newsletter input{
+    padding: 15px;
+    width: 30%;
+    border: none;
+}
+.footer-icon{
+    margin: 40px;
+}
